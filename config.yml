@@ -1,4 +1,4 @@
-baseURL: "https://owensizemore.github.io/itsowensizemore"
+baseURL: "https://owensizemore.github.io/itsowensizemore/"
 title: Owen Sizemore
 theme: PaperMod
 pagination:
@@ -55,7 +55,7 @@ params:
           enabled: true
           title: Owen Sizemore
           subtitle: "I am a computer science PhD student at Duke University in Durham, North Carolina. I am interested in researching how generative AI tools like ChatGPT impact how students learn computer science, and how we can develop teaching frameworks that empower students to use AI in ways that augment their learning."
-          imageUrl: "/picture.jpg"
+          imageUrl: "picture.jpg"
           imageWidth: 130
           imageHeight: 130
 #          buttons:
