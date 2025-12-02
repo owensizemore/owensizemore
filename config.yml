@@ -1,0 +1,105 @@
+baseURL: "https://pascalmichaillat.org/" 
+title: Owen Sizemore
+theme: PaperMod
+pagination:
+  pagerSize: 40
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Research
+          url: research/
+          weight: 2
+        - name: About
+          url: about/
+          weight: 3
+        - name: Papers
+          url: papers/
+          weight: 4
+        - name: Dashboard
+          url: dashboard/
+          weight: 5
+        - name: Courses
+          url: courses/
+          weight: 6
+        - name: Design
+          url: design/
+          weight: 7
+
+params:
+    description: "This website hosts Owen Sizemore's online research presence."
+    author: Owen Sizemore
+    googleAnalyticsID: ""
+    images: ["cover.png"]
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: true
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: false
+    ShowWordCount: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    disableScrollToTop: true
+    ShowCodeCopyButtons: true
+    ShowToc: false
+    TocOpen: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Owen Sizemore
+          subtitle: "I am a computer science PhD student at Duke University in Durham, North Carolina. I am interested in researching how generative AI tools like ChatGPT impact how students learn computer science, and how we can develop teaching frameworks that empower students to use AI in ways that augment their learning."
+          imageUrl: "/picture.jpg"
+          imageWidth: 130
+          imageHeight: 130
+#          buttons:
+#            - name: Research
+#              url: research/
+#            - name: About
+#              url: about/
+#            - name: Papers
+#              url: papers/
+#            - name: Dashboard
+#              url: dashboard/
+#            - name: Courses
+#              url: courses/
+#            - name: Design
+#              url: design/
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:owen.sizemore@duke.edu
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: true
+        hiddenInSingle: true
+    label:
+      text: "Owen Sizemore"
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: xcode 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+titleCaseStyle: 'none'
+enableGitInfo: true
+buildFuture: true
