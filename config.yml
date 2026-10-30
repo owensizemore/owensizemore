@@ -75,6 +75,10 @@ params:
     socialIcons:
         - name: CV
           url: cv.pdf
+        - name: Research Abstract
+          url: sizemoredcresearchabstract.pdf
+        - name: Koli Calling '26 paper
+          url: kolicalling26-16.pdf
         - name: Email
           url: mailto:owen.sizemore@duke.edu
 
